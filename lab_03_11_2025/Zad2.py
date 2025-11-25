@@ -1,11 +1,15 @@
-def listaliczb1(liczby):
+def lista_liczb1(liczby):
     for i in range(len(liczby)):
-        liczby[i]*=2
+        liczby[i] *= 2
     return liczby
 
-print(listaliczb1([2,4,6,8,10]))
 
-def listaliczb2(liczby):
-    pomnozone=[x*2 for x in liczby]
+print(lista_liczb1([2, 4, 6, 8, 10]))
+
+
+def lista_liczb2(liczby):
+    pomnozone = [x * 2 for x in liczby]
     return pomnozone
-print(listaliczb2([2,4,6,8,10]))
+
+
+print(lista_liczb2([2, 4, 6, 8, 10]))

@@ -1,5 +1,6 @@
-def listaimion(imiona):
-    for i in imiona:
-        print(i)
+def lista_imion(imiona):
+    for imie in imiona:
+        print(imie)
 
-listaimion(["Kuba","Filip","Piotr","Stefan","Andrzej"])
+
+lista_imion(["Kuba", "Filip", "Piotr", "Stefan", "Andrzej"])
